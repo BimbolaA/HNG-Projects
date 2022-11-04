@@ -2,7 +2,7 @@
   width: 1440px;
   margin: auto;
   box-sizing: border-box;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Inter', sans-serif;
 }
 
@@ -33,6 +33,10 @@ a {
   object-fit: cover;
 }
 
+header {
+  text-align: center;
+}
+
 header p {
   margin: 1.5rem 0 3.5rem 0;
   font-size: 1.2rem;
@@ -53,6 +57,7 @@ section {
 #pitch,
 #book__design,
 #contact {
+  text-align: center;
   background-color: #EAECF0;
   padding: 1.5rem;
   color: #101828;
@@ -68,6 +73,7 @@ section {
 }
 
 .logo {
+  text-align: center;
   margin-top: 1.5rem;
   margin-bottom: 4rem;
   padding: 1.5rem;
@@ -87,6 +93,7 @@ section {
 }
 
 footer {
+  text-align: center;
   width: 100%;
   display: flex;
   align-content: space-between;
@@ -97,6 +104,57 @@ footer p {
   color: #667085;
   font-size: 1rem;
   font-weight: 400;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+#first_name {
+  width: 348px;
+}
+
+#last_name {
+  width: 348px;
+}
+
+#first_name,
+#last_name,
+#email {
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#message {
+  resize: none;
+  height: 132px;
+}
+
+#btn__submit {
+  width: 100%;
+  background: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+#form {
+  align-items: center;
+}
+
+#form h2 {
+  font-size: 36px;
+  margin-top: 156px;
+  margin-left: 360px;
+}
+
+#form-para {
+  margin-left: 360px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 375px) {
@@ -112,7 +170,8 @@ footer p {
   #books,
   #book__python,
   #pitch,
-  #book__design {
+  #book__design,
+  #contact {
     width: 343px;
     margin: auto;
   }
