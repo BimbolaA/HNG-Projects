@@ -11,7 +11,7 @@ export default function Buttons() {
             <a href='https://books.zuri.team/python-for-beginners?ref_id=BimbolaA' id='book__python'>Buy Books That Teach Python</a>
             <a href='https://background.zuri.team' id='pitch'>Get Value for Money</a>
             <a href='https://books.zuri.team/design-rules' id='book__design'>Learn More Pay Nothing</a>
-            <a href="./Contact" id='contact'>Contact</a>
+            <Link to="./Contact" id='contact'>Contact</Link>
         </section>
     );
 }

@@ -26,7 +26,7 @@ export default function Contact() {
                 
                 <div class="col-12">
                     <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck" />
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required />
                     <label class="form-check-label" for="gridCheck">
                     You agree to providing your data to BimbolaA who may contact you.
                     </label>
