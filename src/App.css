@@ -1,0 +1,150 @@
+* {
+  width: 1440px;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+#icon_top {
+  width: 1rem;
+  color: #98A2B3;
+  margin-top: 4rem;
+  margin-left: 66rem;
+}
+
+#icon_mobile {
+  display: none;
+  width: 1rem;
+  color: #98A2B3;
+  margin-top: 4rem;
+  margin-left: 332px;
+}
+
+#profile__img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 2.7rem;
+  object-fit: cover;
+}
+
+header p {
+  margin: 1.5rem 0 3.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#twitter,
+#slack,
+#btn__zuri,
+#books,
+#book__python,
+#pitch,
+#book__design,
+#contact {
+  background-color: #EAECF0;
+  padding: 1.5rem;
+  color: #101828;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 9rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#slack {
+  display: none;
+}
+
+.logo {
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+}
+
+.logo img {
+  width: 1.5rem;
+  margin-right: 1.6rem;
+}
+
+#zuri_logo {
+  width: 11.5rem;
+}
+
+#i4g_logo {
+  width: 8.2rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  padding: 5.3rem 7rem 3rem 7rem;
+}
+
+footer p {
+  color: #667085;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 375px) {
+
+  * {
+    width: 375px;
+    text-align: center;
+  }
+  
+  #twitter,
+  #slack,
+  #btn__zuri,
+  #books,
+  #book__python,
+  #pitch,
+  #book__design {
+    width: 343px;
+    margin: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 16px;
+    padding: 69px 146px 32px 16px;
+  }
+
+  footer img {
+    margin: 0;
+  }
+
+  footer p {
+    text-align: left;
+  }
+
+  #zuri_logo {
+    width: 138px;
+
+  }
+
+  #i4g_logo {
+    width: 99px;
+  }
+
+  #icon_top {
+    display: none;
+  }
+
+  #icon_mobile {
+    display: block;
+  }
+}
