@@ -161,7 +161,7 @@ form {
 
   * {
     width: 375px;
-    text-align: center;
+    /* text-align: center; */
   }
   
   #twitter,
@@ -205,5 +205,30 @@ form {
 
   #icon_mobile {
     display: block;
+  }
+
+  #form-para,
+  #form h2 {
+    margin-left: 16px;
+  }
+
+  #message,
+  #email,
+  #btn__submit {
+    width: 343px;
+  }
+
+  #form {
+    align-items: flex-start;
+    max-width: 343px;
+    
+  }
+
+  .row {
+    margin-left: 16px;
+  }
+
+  .form-check-label {
+    width: 311px;
   }
 }
