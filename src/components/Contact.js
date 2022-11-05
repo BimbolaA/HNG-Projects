@@ -2,6 +2,8 @@ import React from 'react';
 import Footer from './Footer';
 
 export default function Contact() {
+    const name = "Abimbola Abiri"
+
     return(
         <section id='form'>
             <h2>Contact Me</h2>
@@ -28,7 +30,7 @@ export default function Contact() {
                     <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck" required />
                     <label class="form-check-label" for="gridCheck">
-                    You agree to providing your data to BimbolaA who may contact you.
+                    You agree to providing your data to {name} who may contact you.
                     </label>
                     </div>
                 </div>
